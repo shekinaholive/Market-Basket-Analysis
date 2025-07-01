@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Chatbot Javascript </title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="glass">
+<h1 lang="ta">உங்கள் உணவுப் பொருளைத் தட்டச்சு செய்யவும்</h1>
+<div class="input">
+<input
+type="text"
+id="userBox"
+onkeydown="if(event.keyCode == 13){ checkCSV()}"
+placeholder="உணவு பொருள்"
+/>
+</div>
+<p id="chatLog" >உங்கள் பரிந்துரை</p>
+</div>
+<script src="appCSV.js" charset="utf-8"></script>
+
+</body>
+</html>
